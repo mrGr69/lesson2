@@ -1,0 +1,66 @@
+@import url("reset.css");
+*{
+    color: rgb(66, 63, 63);
+}
+.preview h1{
+    color: yellowgreen;
+}
+.preview .top p {
+    color: rgb(231, 25, 25);
+}
+.myukariv > p {
+    color: rgb(25, 233, 25);
+}
+ .myukariv div img + p{  /*test + p */
+    color: rgb(34, 0, 255);
+}
+.pidhirtsi > h2 {
+    color: red;
+}
+.pidhirtsi h2 ~ p{
+    color: rgb(108, 143, 174);
+}
+[class*="rezhany"] h2{
+    color: red;
+}
+.berezhany > p{
+    color: rgb(78, 145, 122);
+}
+[class*="horyany"] h2 + p{
+    color: coral;
+}
+.nahoryany > h2{
+    color: red;
+}
+.chortkiv h2 {
+    color: red;
+}
+.chortkiv h2 ~ p{
+    color: aqua;
+}
+.chortkiv > div{
+    color: green;
+}
+.stanislav h2 {
+    color: red;
+}
+[class*="slav"] h2 ~ p{
+    color: rgb(167, 9, 9);
+}
+.stanislav h2 + p{
+     color: rgb(65, 2, 2); /*перезаписую один з тегів */
+}
+.vyutachiv {
+}
+.terebovlya.terebovlya-test h2 {
+    color: red;
+}
+.terebovlya-test h2 + p{
+    color: aquamarine;
+}
+.list ul > li{
+    color: blueviolet;
+}
+.bottom h2{
+    color: black;
+}
