@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css?family=+Sans:regular,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter:500&display=swap");
+@font-face{
+    font-family: evangelie;
+    src: url("../fonts/Evangelie.woff2");
+    src: url("../fonts/Evangelie.woff");
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+body{
+    font-family: 'PT Sans Caption', sans-serif;
+}

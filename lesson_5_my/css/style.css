@@ -1,0 +1,100 @@
+@import url(reset.css);
+@import url(fonts.css);
+.top {
+    text-transform: uppercase;
+    font-size: 28px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #37393F;
+    letter-spacing: 2px;
+}
+.title h2{
+    font-weight: 600;
+    font-size: 24px;
+    color: #444;
+    line-height: 30px;
+}
+.title p{
+    font-size: 18px;
+    color: #444
+}
+.lists h2{
+    font-size: 18px;
+    font-weight: 600;
+    color: #37393F;
+}
+.lists h3{
+    text-decoration: line-through;
+}
+.list ul li a{
+    text-decoration: underline;
+}
+.list ul li{
+    line-height: 50px;
+}
+.block p span a{
+    text-decoration: underline;
+    letter-spacing: 2px;
+}
+.evangelie{
+    font-family: evangelie;
+    font-size: 24px;
+    letter-spacing: 20px;
+}
+.Consulting {
+    color: #37393F;
+    font-size: 24px;
+    font-weight: 600;
+    text-shadow: 2px 2px 5px;
+}
+.content-text h1{
+    font-size: 30px;
+    color: #37393F;
+    line-height: 38px;
+}
+.content-text p{
+    font-size: 18px;
+    color: #7D7D7D;
+    line-height: 26px;
+}
+.popins{
+    font-family: Poppins;
+    font-weight: 600;
+
+}
+.descriptions h2{
+    color: #6B77E5;
+    font-size: 20px;
+    line-height: 25px;
+}
+.descriptions p{
+    font-size: 18px;
+    line-height: 26px;
+    color: #7D7D7D;
+}
+.information h2{
+    font-size: 40px;
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 51px;
+    color: #37393F;
+}
+.information p{
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 26px;
+    color: #7D7D7D;
+}
+.information ul li{
+    font-size: 18px;
+    font-family: Inter;
+    line-height: 26px;
+    font-weight: 500;
+    color: #7D7D7D;
+}
+.comeback p{
+    font-size: 34px;
+    color:#37393F;
+    font-weight: 700;
+    
+}
