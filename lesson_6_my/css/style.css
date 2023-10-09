@@ -1,0 +1,142 @@
+@import url(reset.css);
+@import url(fonts.css);
+
+.content {
+    padding: 50px 15px;
+    max-width: 722px;
+    margin: 0 auto;
+}
+.title-img{
+    padding-bottom: 44px;
+}
+h1,h2{
+    font-family: Poppins;
+    font-weight: 600;
+}
+p{
+    font-family: Inter;
+    color: #7D7D7D;
+}
+.title h1{
+    font-size: 30px;
+    color: #37393F;
+    margin-bottom: 20px;
+}
+.title p{
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 45px;
+}
+
+.content2 h2{
+    font-size: 20px;
+    color: #6B77E5;
+    line-height: 25px;
+    margin-bottom: 28px;
+}
+.content2 p{
+    line-height: 26px;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.sub-content {
+    font-size: 0
+
+}
+.laptop{
+    width: 331px;
+    margin-right: 29px;
+    /* display: inline-block; */
+}
+.content-box {
+    display: inline-block;
+    width: 332px;
+    font-size: 18px;
+}
+.content-box h3{
+    font-size: 25px;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 32px;
+    color: #37393F;
+    margin-bottom: 15px;
+}
+.content-box h5{
+    font-size: 20px;
+    font-family: Poppins;
+    line-height: 25px;
+    font-weight: 600;
+    color: #40DDB6;
+    margin-bottom: 21px;
+}
+.list {
+    font-size: 20px;
+    color: #7D7D7D;
+    font-family: Inter;
+    
+}
+.list li{
+    margin-bottom: 30px;
+    
+}
+.jewellery {
+    padding-bottom: 50px;
+    max-width: 1170px;
+    margin: 0 auto;
+    font-size: 0;
+}
+.review {
+    display: inline-block;
+    max-width: 563px;
+    padding-right: 38px;
+}
+.review h2{
+    color: #D06B00;
+    font-size: 28px;
+    margin-bottom: 15px;
+    font-family: Inter;
+    font-weight: 400;
+}
+.review h3{
+    font-size: 59px;
+    line-height: 86px;
+    margin-bottom: 25px;
+    color: #0E333D;
+}
+.review p{
+    line-height: 36px;
+    font-family: Inter;
+    font-size: 20px;
+    color: #474747;
+
+}
+.review h3{
+    font-family: DM Serif Text;
+}
+.photo {
+    display: inline-block;
+    vertical-align: top;
+}
+.photo img{
+    max-width: 273px;
+    margin-right: 22px;
+}
+
+.block {
+    width: 1000px;
+    height: 150px;
+    margin: 0 auto;
+    padding-bottom: 200px;
+    /* overflow: hidden; */
+
+}
+.block-first, .block-second, .block-third {
+    width: 300px;
+    height: 150px;
+    display: inline-block;
+    vertical-align: top;
+    overflow: scroll;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 600;    
+}
