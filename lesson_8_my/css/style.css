@@ -217,7 +217,7 @@
     vertical-align: top;
     font-size: 0;
     padding: 183px 74px 175px;
-    background: url(/img/black-phone.png) 0 0 / cover no-repeat;
+    background: url(../img/black-phone.png) 0 0 / cover no-repeat;
     display: inline-block;
 }
 .block-first-text{
@@ -256,7 +256,7 @@
 }
 .block-second {
     display: inline-block;
-    background: url(/img/color-phone.png) 0 0 / cover no-repeat;
+    background: url(../img/color-phone.png) 0 0 / cover no-repeat;
     width: 626px;
     height: 640px;
 
