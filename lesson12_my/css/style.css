@@ -1,0 +1,234 @@
+@import url(reset.css);
+
+.wrapper {
+    overflow: clip;
+	min-height: 100%;
+}
+.header {
+    background: url("../img/header-bg.jpg");
+    background-position: 200px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+}
+.header--margin{
+    margin-bottom: 400px;
+}
+.header__logo {
+}
+.header__menu {
+    padding: 20px;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+.header__list {
+}
+.header__list *{
+    color: azure;
+    font-size: 24px;
+
+}
+.header__item{
+    display: inline-block;
+    position: relative;
+    border: 2px solid rgba(255, 255, 255, 0.21);
+    border-radius: 40px;
+    padding: 0 10px;
+}
+.header__item p{
+    display: inline-block;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    vertical-align: top;
+    padding-top: 15px;
+    
+}
+.header__item::after{
+    content: "";
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/icons/icons8-menu-50.svg);
+}
+.header__sub-list {
+    visibility: hidden;    
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+ul{
+    
+}
+.header__item:hover > .header__sub-list {
+    visibility: visible;
+}
+.header__sub-items {
+    background-color: rgba(63, 23, 196, 0.916);
+    padding: 10px 5px;
+    position: relative;
+}
+.header__sub-other-list{
+    position: absolute;
+    top: 0;
+    left: 100%;   
+    z-index: 100;
+    visibility: hidden;
+    width: 200px;
+    /* background-color: rgba(235, 0, 0, 0.916); */
+
+}
+.header__sub-other-list li{
+    border: 1px solid black;
+    padding: 10px 5px;
+
+}
+.header__sub-items:hover > .header__sub-other-list {
+    visibility: visible; 
+}
+/* .header__sub-items:hover .header__sub-other-list li{
+    visibility: visible;
+} */
+.main {
+}
+.main__container {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding-top: 200px;
+    font-size: 0;
+
+}
+.block {
+}
+.block__team-top {
+    margin-bottom: 31px;
+}
+.block__items{
+    
+}
+.block__items li{
+    position: relative;
+    display: inline-block;
+
+}
+.block__items li:not(:last-child){
+    margin-right: 30px;
+}
+.block__team-bot {
+}
+h2{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 38px;
+    white-space: nowrap;
+
+
+}
+h3{
+    font-size: 18px;
+}
+.lable{
+    /* display: inline-block; */
+    position: absolute;
+    bottom: 22px;
+    left: 0px;
+    right: 0px;
+    /* width: 100%; */
+    margin:  0 23px;
+    padding: 24px 69px;
+    background-color: rgb(255, 255, 255);
+    font-family: Poppins;
+}
+.block__items li:hover .block__image{
+    opacity: 0.3;
+    /* position: absolute; */
+    /* z-index: 100; */
+    /* width: 100%; */
+}
+.block__bghover:hover{
+    background-color: rgb(107, 119, 229);
+
+}
+.block__contakts{
+    display: inline-block;
+    position: absolute;
+    left: 107px;
+    top: 240px;
+    visibility: hidden;
+    opacity: 0;
+}
+.block__contakts img{
+    width: 45px;
+    height: 45px;
+}
+.block__contakts a:not(:last-child){
+    margin-right: 13px;
+}
+.block__items li:hover .block__contakts{
+    visibility: visible;
+    opacity: 1;
+}
+/* футер */
+.footer {
+}
+.footer__pactice {
+    max-width: 840px;
+    margin: 0 auto;
+    margin-bottom: 500px;
+}
+.footer__list {
+}
+.footer__item {
+    display: inline-block;
+    max-width: 300px;
+    border: 10px solid rgba(67, 32, 32, 0.368);
+    padding: 20px;
+    vertical-align: top;
+    overflow: scroll;
+    max-height: 300px;
+
+}
+.footer__item:not(:last-child){
+    margin-right: 200px;
+}
+.footer__item h2{
+    position: sticky;
+    top: 0;
+    background-color: rgb(152, 13, 211);
+    font-size: 32px;
+    padding: 10px 0;
+    text-align: center;
+    border: 5px dotted;
+    margin-bottom: 10px;
+}
+.footer__item p{
+    font-size: 20px;
+}
+.main__container{
+    margin-bottom: 100px;
+}
+
+.footer__block{
+    position: sticky;
+    bottom: 0;
+    height: 100px;
+    background-color: dimgray;
+    color: wheat;
+
+}
+.footer__block h4 {
+    text-align: center;
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+.footer__block h5{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
